@@ -1,0 +1,10 @@
+name = "serial-experiments-lean"
+version = "0.1.0"
+defaultTargets = ["serial-experiments-lean"]
+
+[[lean_lib]]
+name = "SerialExperimentsLean"
+
+[[lean_exe]]
+name = "serial-experiments-lean"
+root = "Main"
